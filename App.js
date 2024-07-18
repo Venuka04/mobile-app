@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import Font from './View/constants/fonts';
 
 import AuthNavigator from './View/navigation/AuthNavigator';
 import navigationTheme from './View/navigation/navigationTheme';
 
 export default function App() {
+  //const [fontsLoaded] = useFonts(Font);
   return (
     <NavigationContainer theme={navigationTheme}>
       <AuthNavigator />
@@ -21,3 +23,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
