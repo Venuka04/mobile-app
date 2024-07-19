@@ -1,4 +1,4 @@
-export default {
+const fonts = {
   "Inter-black": "Inter-Black",
   "Inter-bold": "Inter-Bold",
   "Inter-light": "Inter-Light",
@@ -7,4 +7,4 @@ export default {
 
 };
 
-
+export default fonts;
